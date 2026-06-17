@@ -58,6 +58,7 @@ function onDateSelection(selectedDates) {
   const currentDate = new Date();
   if (chosenDate < currentDate) {
     refs.startButton.disabled = true;
+    userSelectedDate = null;
     return iziToast.show({
       backgroundColor: 'red',
       position: 'topRight',

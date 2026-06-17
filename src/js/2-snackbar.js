@@ -62,4 +62,5 @@ function onFormSubmitClick(event) {
         close: true,
       });
     });
+  refs.formEl.reset();
 }
