@@ -65,7 +65,7 @@ function onDateSelection(selectedDates) {
       titleColor: '#fff',
       titleSize: '16px',
       titleLineHeight: '1.5',
-      iconUrl: '/img/icon.svg',
+      iconUrl: './img/icon.svg',
       message: 'Please choose a date in the future',
       messageColor: '#fff',
       messageSize: '16px',
