@@ -17,6 +17,7 @@ const refs = {
   dataSeconds: document.querySelector('[data-seconds]'),
   inputField: document.querySelector('#datetime-picker'),
 };
+refs.startButton.addEventListener('click', handleStartButtonClick);
 refs.startButton.disabled = true;
 
 console.log(refs.startButton);
@@ -77,7 +78,6 @@ function onDateSelection(selectedDates) {
     refs.startButton.disabled = false;
   }
 }
-refs.startButton.addEventListener('click', handleStartButtonClick);
 
 function handleStartButtonClick(event) {
   let difference;
